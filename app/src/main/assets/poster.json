@@ -1,0 +1,65 @@
+{
+  "image": {
+    "x": 54,
+    "y": 121,
+    "origin": 0,
+    "w": 193,
+    "h": 136,
+    "url": ""
+  },
+  "background": {
+    "url": ""
+  },
+  "title": {
+    "x": 1,
+    "y": 1,
+    "origin": 1,
+    "w": 1,
+    "h": 1,
+    "text": "",
+    "textSize": 18,
+    "textColor": "#000000",
+    "maxLines": 1
+  },
+  "name": {
+    "x": 1,
+    "y": 1,
+    "origin": 1,
+    "w": 1,
+    "h": 1,
+    "text": "",
+    "textSize": 18,
+    "textColor": "#000000",
+    "maxLines": 1
+  },
+  "age": {
+    "x": 1,
+    "y": 1,
+    "origin": 1,
+    "w": 1,
+    "h": 1,
+    "text": "",
+    "textSize": 18,
+    "textColor": "#000000",
+    "maxLines": 1
+  },
+  "school": {
+    "x": 1,
+    "y": 1,
+    "origin": 1,
+    "w": 1,
+    "h": 1,
+    "text": "",
+    "textSize": 18,
+    "textColor": "#000000",
+    "maxLines": 1
+  },
+  "qrcode": {
+    "x": 1,
+    "y": 1,
+    "origin": 0,
+    "w": 1,
+    "h": 1,
+    "text": ""
+  }
+}
