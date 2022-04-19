@@ -5,61 +5,53 @@
     "origin": 0,
     "w": 193,
     "h": 136,
-    "url": ""
+    "url": "https://s2.loli.net/2022/04/19/vjcezpF9lXKrHki.png"
   },
   "background": {
-    "url": ""
+    "url": "https://s2.loli.net/2022/04/19/juFt7moA21ING8C.png"
   },
   "title": {
-    "x": 1,
-    "y": 1,
+    "x": 118,
+    "y": 428,
     "origin": 1,
-    "w": 1,
-    "h": 1,
-    "text": "",
+    "text": "《艺术大师》",
     "textSize": 18,
     "textColor": "#000000",
     "maxLines": 1
   },
   "name": {
-    "x": 1,
-    "y": 1,
+    "x": 148,
+    "y": 463,
     "origin": 1,
-    "w": 1,
-    "h": 1,
-    "text": "",
-    "textSize": 18,
-    "textColor": "#000000",
+    "text": "王小明",
+    "textSize": 16,
+    "textColor": "#8c8c8c",
     "maxLines": 1
   },
   "age": {
-    "x": 1,
-    "y": 1,
+    "x": 118,
+    "y": 463,
     "origin": 1,
-    "w": 1,
-    "h": 1,
-    "text": "",
-    "textSize": 18,
-    "textColor": "#000000",
+    "text": "8岁",
+    "textSize": 16,
+    "textColor": "#8c8c8c",
     "maxLines": 1
   },
   "school": {
-    "x": 1,
-    "y": 1,
+    "x": 118,
+    "y": 485,
     "origin": 1,
-    "w": 1,
-    "h": 1,
-    "text": "",
-    "textSize": 18,
-    "textColor": "#000000",
+    "text": "中国技术交易大厦",
+    "textSize": 14,
+    "textColor": "#7f7f7f",
     "maxLines": 1
   },
   "qrcode": {
-    "x": 1,
-    "y": 1,
-    "origin": 0,
-    "w": 1,
-    "h": 1,
-    "text": ""
+    "x": 27,
+    "y": 431,
+    "origin": 1,
+    "w": 76,
+    "h": 76,
+    "text": "https://www.52yuwan.com/"
   }
 }

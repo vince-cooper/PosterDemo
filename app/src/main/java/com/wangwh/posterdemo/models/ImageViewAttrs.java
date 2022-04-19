@@ -1,0 +1,37 @@
+package com.wangwh.posterdemo.models;
+
+import android.content.Context;
+import android.view.View;
+import android.widget.ImageView;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.widget.AppCompatImageView;
+
+import com.bumptech.glide.Glide;
+
+/**
+ * @Author: 王文辉
+ * @Date: 2022-04-19 14:36
+ * @Desc: 图片属性
+ * @Note:
+ */
+public class ImageViewAttrs extends ViewAttrs {
+    private String url;
+
+    @Override
+    @NonNull
+    public View createView(@NonNull Context context) {
+        AppCompatImageView view = new AppCompatImageView(context);
+        view.setScaleType(ImageView.ScaleType.CENTER_CROP);
+        Glide.with(context).load(getUrl()).into(view);
+        return view;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+}

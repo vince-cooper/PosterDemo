@@ -1,13 +1,12 @@
 package com.wangwh.posterdemo
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Gravity
-import android.view.View
 import android.view.ViewGroup
-import android.widget.FrameLayout
 import android.widget.RelativeLayout
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+import androidx.cardview.widget.CardView
 import com.google.gson.Gson
 import com.google.gson.JsonSyntaxException
 import com.wangwh.posterdemo.response.PosterTemplateData
@@ -21,6 +20,7 @@ class MainActivity : AppCompatActivity() {
         val data = getPosterTemplateData()
         if (data == null) {
             Toast.makeText(this, "解析数据失败！", Toast.LENGTH_LONG).show()
+            finish()
             return
         }
 
@@ -29,12 +29,13 @@ class MainActivity : AppCompatActivity() {
         }
         setContentView(rootView)
 
-        val posterView = createPosterView(data)
+        val posterView = PosterView(this)
         rootView.addView(
             posterView,
-            resources.getDimensionPixelOffset(R.dimen.poster_width),
-            resources.getDimensionPixelOffset(R.dimen.poster_height)
+            ViewGroup.LayoutParams.WRAP_CONTENT,
+            ViewGroup.LayoutParams.WRAP_CONTENT
         )
+        posterView.initPoster(data)
     }
 
     private fun getPosterTemplateData(): PosterTemplateData? {
@@ -45,11 +46,5 @@ class MainActivity : AppCompatActivity() {
 
         }
         return null
-    }
-
-    private fun createPosterView(data: PosterTemplateData): View {
-        return PosterView(baseContext).apply {
-            initPoster(data)
-        }
     }
 }

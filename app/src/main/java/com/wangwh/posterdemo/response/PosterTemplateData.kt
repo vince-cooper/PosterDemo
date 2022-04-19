@@ -14,9 +14,9 @@ import com.wangwh.posterdemo.models.TextViewAttrs
 class PosterTemplateData(
     val image: ImageViewAttrs? = null,
     val background: BackgroundViewAttrs? = null,
+    val qrcode: QRCodeViewAttrs? = null,
     val title: TextViewAttrs? = null,
     val name: TextViewAttrs? = null,
     val age: TextViewAttrs? = null,
     val school: TextViewAttrs? = null,
-    val qrcode: QRCodeViewAttrs? = null,
 )
