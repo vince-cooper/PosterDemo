@@ -6,7 +6,6 @@ import android.view.ViewGroup
 import android.widget.RelativeLayout
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.cardview.widget.CardView
 import com.google.gson.Gson
 import com.google.gson.JsonSyntaxException
 import com.wangwh.posterdemo.response.PosterTemplateData
