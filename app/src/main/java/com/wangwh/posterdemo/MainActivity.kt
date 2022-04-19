@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.google.gson.Gson
 import com.google.gson.JsonSyntaxException
 import com.wangwh.posterdemo.response.PosterTemplateData
+import com.wangwh.posterdemo.utils.ColorUtil
 import com.wangwh.posterdemo.utils.JsonUtil
 import com.wangwh.posterdemo.widgets.PosterView
 
@@ -24,6 +25,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         val rootView = RelativeLayout(this).apply {
+            setBackgroundColor(ColorUtil.parse("#DEDEDE"))
             gravity = Gravity.CENTER
         }
         setContentView(rootView)

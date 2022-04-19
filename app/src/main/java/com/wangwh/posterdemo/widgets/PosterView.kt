@@ -3,7 +3,6 @@
 package com.wangwh.posterdemo.widgets
 
 import android.content.Context
-import android.graphics.Color
 import android.util.AttributeSet
 import android.view.ViewGroup
 import android.widget.FrameLayout
@@ -32,10 +31,6 @@ class PosterView : FrameLayout {
         defStyleAttr: Int,
         defStyleRes: Int
     ) : super(context, attrs, defStyleAttr, defStyleRes)
-
-    init {
-        setBackgroundColor(Color.BLUE)
-    }
 
     fun initPoster(data: PosterTemplateData) {
         updateLayoutParams<ViewGroup.LayoutParams> {
